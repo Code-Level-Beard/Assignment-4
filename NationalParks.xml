@@ -39,7 +39,7 @@
         </Address>
     </NationalPark>
     <!-- National Park #3-->
-    <NationalPark Rating = "4.8">
+    <NationalPark>
         <Name>Big Bend</Name>
         <Phone>432-477-2251</Phone>
         <Address NearestAirport = "Big Bend Regional">
@@ -76,7 +76,7 @@
         </Address>
     </NationalPark>
     <!-- National Park #6-->
-    <NationalPark Rating = "4.9">
+    <NationalPark>
         <Name>Bryce Canyon</Name>
         <Phone>435-834-5322</Phone>
         <Address NearestAirport = "Bryce Canyon">
