@@ -29,9 +29,9 @@
     <xs:attribute name="NearestAirport" type="xs:string" use="required" />
   </xs:complexType>
 
-  <xsd:simpleType name="PhoneType">
-    <xsd:restriction base="xsd:string">
-      <xsd:pattern value="\d{3}-\d{3}-\d{4}" />
-    </xsd:restriction>
-  </xsd:simpleType>
+  <xs:simpleType name="PhoneType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{3}-\d{3}-\d{4}" />
+    </xs:restriction>
+  </xs:simpleType>
 </xs:schema>
