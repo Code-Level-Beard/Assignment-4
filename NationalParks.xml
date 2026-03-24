@@ -2,7 +2,7 @@
 <NationalParks>
 
     <!-- National Park #1-->
-    <NationalPark Rating = "4.9">
+    <NationalPark Rating = "">
         <Name>Acadia</Name>
         <Phone>207-288-3338</Phone>
         <Address NearestAirport = "Hancock County-Bar Harbor">
