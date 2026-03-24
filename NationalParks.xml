@@ -80,7 +80,7 @@
         <Name>Bryce Canyon</Name>
         <Phone>435-834-5322</Phone>
         <Address NearestAirport = "Bryce Canyon">
-            <Number></Number>
+            <Number>1</Number>
             <Street>Bryce Canyon National Park UT-63</Street>
             <City>Bryce</City>
             <State>UT</State>
