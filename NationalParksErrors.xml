@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "utf-8"?>
-<!-- First Error: Incorrect Root -->
+<!-- First Error: Incorrect Root Element -->
 <NationalPark>
-
-    <!-- Second Error: Missing Closing Address Tag -->
-    <!-- National Park #1-->
+    <!-- Second Error: Double Name Tag -->
+    <!-- National Park #1 -->
     <NationalPark Rating = "4.9">
         <Name>Acadia</Name>
+        <Name>Acadia National Park</Name>
         <Phone>207-288-3338</Phone>
         <Address NearestAirport = "Hancock County-Bar Harbor">
             <Number>25</Number>
@@ -13,6 +13,7 @@
             <City>Bar Harbor</City>
             <State>ME</State>
             <Zip>04609</Zip>
+        </Address>
     </NationalPark>
     <!-- Third Error: Missing Phone Tag -->
     <!-- National Park #2-->
@@ -26,7 +27,6 @@
             <Zip>57750</Zip>
         </Address>
     </NationalPark>
-    <!-- Fourth Error: Missing State Tag -->
     <!-- National Park #3-->
     <NationalPark Rating = "4.8">
         <Name>Big Bend</Name>
@@ -35,10 +35,11 @@
             <Number>1</Number>
             <Street>Panther Junction</Street>
             <City>Big Bend</City>
+            <State>TX</State>
             <Zip>79834</Zip>
         </Address>
     </NationalPark>
-    <!-- Fifth Error: Missing Required Airport Attribute -->
+    <!-- Fourth Error: Missing Required Airport Attribute -->
     <!-- National Park #4-->
     <NationalPark Rating = "4.7">
         <Name>Biscayne</Name>
@@ -52,10 +53,8 @@
             <Zip>33033</Zip>
         </Address>
     </NationalPark>
-    <!-- Sixth Error: Double Name Tag -->
     <!-- National Park #5-->
     <NationalPark Rating = "4.8">
-        <Name>Black Canyon of the Gunnison</Name>
         <Name>Black Canyon of the Gunnison</Name>
         <Phone>970-641-2337</Phone>
         <Address NearestAirport = "Montrose Regional">
@@ -126,6 +125,7 @@
             <Zip>97604</Zip>
         </Address>
     </NationalPark>
+    <!-- Fifth Error: Missing Closing Address Tag -->
     <!-- National Park #11-->
     <NationalPark Rating = "4.8">
         <Name>Cuyahoga Valley</Name>
@@ -136,6 +136,5 @@
             <City>Peninsula</City>
             <State>OH</State>
             <Zip>44264</Zip>
-        </Address>
     </NationalPark>
 </NationalPark>
